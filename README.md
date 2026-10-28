@@ -107,11 +107,11 @@ A Flask web app that shows real-time weather and a 5-day forecast for any city u
 `Python` `Flask` `REST APIs` `Bootstrap` `Docker` `pytest` `GitHub Actions`
 
 **🩺 Multi-Agent Medical Decision Support System** · *group project*
-An LLM-based system with four agents. An Intake agent extracts symptoms, a Medical agent suggests diagnosis and treatment, a Validation agent checks against historical cases (RAG via Pinecone) and drug interactions (RxNav API), and an Orchestrator routes and retries. I built and evaluated the Medical agent.
+An LLM-based system with four agents. An Intake agent extracts symptoms, a Medical agent suggests diagnosis and treatment, a Validation agent checks against historical cases (RAG via Pinecone) and drug interactions (RxNav API), and an Orchestrator routes and retries. I built and evaluated the Medical agent. Designed the main architecture.
 `Python` `smolagents` `MCP` `Pinecone` `Gemini` `Ollama`
 
 **🌧️ Agent-Based Stormwater Planning (WSUD) Decision Support** · *capstone, client: Frankston City Council*
-A multi-agent pipeline that recommends rain gardens, wetlands or rainwater harvesting for different urban conditions. I'm working on the Data agent: catchment schema and validation, gauge-data cleaning, and pollutant-load modelling.
+A multi-agent pipeline that recommends rain gardens, wetlands or rainwater harvesting for different urban conditions. 
 `Python` `PySWMM` `LLM agents`
 
 **🔐 Secure IoT Monitoring Platform**
@@ -119,7 +119,7 @@ A three-level PKI chain with mutual TLS across four IoT client devices, a live F
 `Python` `Flask` `Socket.IO` `OpenSSL` `MQTT` `Apache`
 
 **💊 [MediTrack](https://github.com/maisha272/MediTrack)**
-An Android app for tracking medications. *(Add one line on its key features.)*
+An Android app for tracking medications. *(It helps tracking medications and gives reminder to take medication)*
 `Kotlin` `Android`
 
 **🧠 NeuroSense: EEG Pain Detection for Non-Verbal Patients** · *engineering innovation project*
