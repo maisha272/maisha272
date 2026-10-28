@@ -106,7 +106,7 @@ A full-stack e-commerce web app with user and admin accounts, built as a Vue 3 +
 A Flask web app that shows real-time weather and a 5-day forecast for any city using the OpenWeather API, with friendly error handling, a responsive Bootstrap UI and a health-check endpoint. It's containerised with Docker and has a GitHub Actions CI/CD pipeline covering linting (flake8), automated tests (pytest with coverage) and deployment.
 `Python` `Flask` `REST APIs` `Bootstrap` `Docker` `pytest` `GitHub Actions`
 
-**🩺 [Multi-Agent Medical Decision Support System](https://github.com/maisha272/Multi-Agent-Medical-Decision-Support-System_SourceCode)** · *group project*
+**🩺 [Multi-Agent Medical Decision Support System](https://github.com/maisha272/Multi-Agent-Medical-Decision-Support-System)** · *group project*
 An LLM-based system with four agents. An Intake agent extracts symptoms, a Medical agent suggests diagnosis and treatment, a Validation agent checks against historical cases (RAG via Pinecone) and drug interactions (RxNav API), and an Orchestrator routes and retries. I built and evaluated the Medical agent. Designed the main architecture.
 `Python` `smolagents` `MCP` `Pinecone` `Gemini` `Ollama`
 
