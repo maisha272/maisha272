@@ -122,7 +122,7 @@ A three-level PKI chain with mutual TLS across four IoT client devices, a live F
 An Android app for tracking medications. *(Add one line on its key features.)*
 `Kotlin` `Android`
 
-**🧠 NeuroSense: EEG Pain Detection for Non-Verbal Patients** · *engineering capstone*
+**🧠 NeuroSense: EEG Pain Detection for Non-Verbal Patients** · *engineering innovation project*
 Detects pain in patients who can't communicate it, such as people with dementia or patients in ICU, from EEG band-power features. I built the Random Forest + MLP ensemble model, which reached **90.8% accuracy** and **0.974 AUROC**.
 `Python` `Machine Learning` `EEG signal processing`
 
