@@ -13,7 +13,7 @@
 
 I'm a software engineer who likes understanding the systems underneath: the hardware, the network and the physics behind the code. Most of my work sits where software meets real equipment or real-world decisions.
 
-- 🎫 Built an **[AI-assisted IT service desk](https://github.com/maisha272/AI-assisted-IT-service-desk)**: RAG-powered ticket triage with human approval, SLA tracking, Teams and email integrations, deployed to Azure with CI/CD
+- 🎫 Built an **[AI-assisted IT service desk](https://github.com/maisha272/AI-assisted-IT-service-desk)**: RAG-powered ticket triage with human approval, SLA tracking, Teams and email integrations, and a CI/CD pipeline to Azure
 - 🎓 **Bachelor of Software Engineering (Honours)** at Swinburne University of Technology
 - 🏛️ **Full-stack intern at Museums Victoria** (Dec 2025 – Apr 2026), working on the Great Melbourne Telescope Restoration Project
 - 🤖 Also building **multi-agent LLM systems**, for medical decision support and for stormwater planning with Frankston City Council
@@ -106,12 +106,12 @@ A full-stack e-commerce web app with user and admin accounts, built as a Vue 3 +
 A Flask web app that shows real-time weather and a 5-day forecast for any city using the OpenWeather API, with friendly error handling, a responsive Bootstrap UI and a health-check endpoint. It's containerised with Docker and has a GitHub Actions CI/CD pipeline covering linting (flake8), automated tests (pytest with coverage) and deployment.
 `Python` `Flask` `REST APIs` `Bootstrap` `Docker` `pytest` `GitHub Actions`
 
-**🩺 [Multi-Agent Medical Decision Support System](https://github.com/maisha272/Multi-Agent-Medical-Decision-Support-System)** · *group project*
-An LLM-based system with four agents. An Intake agent extracts symptoms, a Medical agent suggests diagnosis and treatment, a Validation agent checks against historical cases (RAG via Pinecone) and drug interactions (RxNav API), and an Orchestrator routes and retries. I built and evaluated the Medical agent. Designed the main architecture.
-`Python` `smolagents` `MCP` `Pinecone` `Gemini` `Ollama`
+**🩺 [P.A.T.C.H.: Multi-Agent Medical Decision Support](https://github.com/maisha272/Multi-Agent-Medical-Decision-Support-System)** · *group project*
+A chat where a patient describes their symptoms and four AI agents (Intake, Medical, Validation and an Orchestrator) work out the most likely of 41 diseases, check medicine safety against allergies with the RxNav API, and escalate emergencies. The agents share 12 tools over MCP. On 60 unseen simulated patients, the first guess was right 97% of the time. I designed the architecture the final system is built on, wrote the agent specifications, and built the first Medical agent, its tools and its evaluation.
+`Python` `smolagents` `MCP` `OpenRouter` `Starlette` `pytest`
 
 **🌧️ Agent-Based Stormwater Planning (WSUD) Decision Support** · *capstone, client: Frankston City Council*
-A multi-agent pipeline that recommends rain gardens, wetlands or rainwater harvesting for different urban conditions. 
+A multi-agent pipeline that recommends rain gardens, wetlands or rainwater harvesting for different urban conditions. I'm working on the Data agent: catchment schema and validation, gauge-data cleaning, and pollutant-load modelling.
 `Python` `PySWMM` `LLM agents`
 
 **🔐 Secure IoT Monitoring Platform**
@@ -119,7 +119,7 @@ A three-level PKI chain with mutual TLS across four IoT client devices, a live F
 `Python` `Flask` `Socket.IO` `OpenSSL` `MQTT` `Apache`
 
 **💊 [MediTrack](https://github.com/maisha272/MediTrack)**
-An Android app for tracking medications. *(It helps tracking medications and gives reminder to take medication)*
+An Android app that tracks medications and reminds you when to take them.
 `Kotlin` `Android`
 
 **🧠 NeuroSense: EEG Pain Detection for Non-Verbal Patients** · *engineering innovation project*
